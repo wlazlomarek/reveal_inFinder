@@ -12,5 +12,5 @@ $ cp -R /Library/Frameworks/Python.framework/Versions/3.7/lib/Tk* tk/
 
 or 
 
-pyinstaller --onefile --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' your_script.py
+$ pyinstaller --onefile --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' your_script.py
 ```
