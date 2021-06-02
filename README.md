@@ -1,4 +1,4 @@
-# reveal_inFinder
+# xPath
 Simple Mac App allows to reveal windows and mac network file path in finder.
 
 Building app by pyinstaller:
