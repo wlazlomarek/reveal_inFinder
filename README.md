@@ -3,7 +3,7 @@ Simple Mac App allows to reveal windows and mac network file path in finder.
 
 Building app by pyinstaller:
 ```console
-$ pyinstaller --windowed --icon icon_path --name ProjectCreator myapp.py 
+$ pyinstaller --windowed --icon icon_path --name xPath xpath.py 
 $ cd dist/myapp.app/Contents/MacOs
 $ mkdir tcl tk
 $ cp -R /Library/Frameworks/Python.framework/Versions/3.7/lib/tcl* tcl/
